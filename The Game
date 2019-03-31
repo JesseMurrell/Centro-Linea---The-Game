@@ -10,6 +10,10 @@ The the natator of the story will be from 'linea superiore' and the naming conve
 humans are known as zitellian
 those from linea bassa are called nundian
 and those from sola linea are called soluean
+
+players start with 100 health
+every answer that doesn't kill them adds to their score, once die their score is printed
+
 '''
 
 #title 
@@ -17,6 +21,8 @@ and those from sola linea are called soluean
 #introduction to the game
 
 #how you play
+
+
 
 #prologue
 
