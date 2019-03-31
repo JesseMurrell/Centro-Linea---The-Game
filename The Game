@@ -15,10 +15,38 @@ players start with 100 health
 every answer that doesn't kill them adds to their score, once die their score is printed
 
 '''
+#global variables
 
+player_name = ''
+Health = 100
+Score = 0
 #title 
 
+print("Hello and Welcome to Centro Linea Player!")
+
 #introduction to the game
+
+print("\
+\nThis is a text based adventure game, that means put simply, you are playing a book.\
+\nThe story will be told via text, like a book. However, unlike a book, your choices dictate the direction and outcome of the story.\
+\n\nLike any other game, you have HP (health points) and a score, both of which can be positively and negatively affected.\
+\nYour decisions have consequences, so choose wisely...\
+\n")
+
+ready = input('Alright player, are you ready?(y/n) >>>>>>').lower()
+
+if ready == 'y':
+	print("\nPerfect! Enjoy, and a word of advice -  don't die.\n")
+	
+else: 
+	print("COWARD!!")
+
+
+#story introduction
+print('\n'*100)
+player_name = input("So, who are you? (enter your name) >>>>>>")
+
+print('')
 
 #how you play
 
