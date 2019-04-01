@@ -46,13 +46,17 @@ else:
 print('\n'*100)
 player_name = input("So, who are you? (enter your name) >>>>>>")
 
-print('')
+#player_class = input(f"\nAnd {player_name}, where were you raised? (City/Viliage/Town/Outback)" 
 
-#how you play
-
-
+print(f"\n Ok {player_name}, let us begin...))
 
 #prologue
+
+print("\n\nPrologue - Lost")
+
+print(\
+"In the beginning there was... not what you think, or atleast no what you've heard as no such beginning even exists.\
+\nHumans have lived for thousands of years under the quite frankly arrogant assumption they are alone")
 
 #beginning
 
